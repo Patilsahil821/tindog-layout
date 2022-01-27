@@ -1,0 +1,129 @@
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+.nav-item {
+  color: white;
+}
+body {
+  font-family: "Montserrat";
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+.iphone-img {
+  transform: rotate(23deg);
+  width: 55%;
+  position: absolute;
+  right: 30%;
+}
+.btn {
+  margin: 1rem 0.6rem 2rem 0rem;
+}
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: "Ubuntu";
+}
+.nav-item {
+  padding: 0 1.2rem;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat";
+}
+.feature-box {
+  text-align: center;
+}
+#features {
+  padding: 7% 15%;
+  position: relative;
+  z-index: 1;
+  background-color: white;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+#features h3,
+h2 {
+  font-family: "Montserrat";
+  font-weight: bold;
+}
+#features p {
+  color: grey;
+}
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: white;
+}
+h2 {
+  line-height: 1.5;
+  font-size: 3rem;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+.carousel-item {
+  padding: 7% 15%;
+}
+#pricing {
+  padding: 100px;
+}
+.pricing-column {
+  margin: 5% 2%;
+  text-align: center;
+}
+.iphone-img-container {
+  position: relative;
+}
+@media screen and (max-width: 1002px) {
+  .iphone-img {
+    position: static;
+    transform: rotate(0);
+  }
+  #title {
+    text-align: center;
+  }
+}
+#cta {
+  padding: 7% 15%;
+  background-color: #ff4c68;
+  text-align: center;
+}
+#cta h3 {
+  font-family: "Montserrat";
+  font-weight: bold;
+  color: white;
+  line-height: 1.5;
+  font-size: 3.5rem;
+}
+#footer {
+  padding: 2% 10%;
+  text-align: center;
+}
+.social-icons {
+  margin: 20px 10px;
+}
